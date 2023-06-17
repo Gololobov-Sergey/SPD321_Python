@@ -69,7 +69,7 @@ print(-6 // 4)
 
 print(7.5 % 3.3)
 print(8 % 3)
-print(9 % 3)
+print(9 % 3)  
 print(10 % 3)
 print(11 % 3)
 
@@ -113,8 +113,11 @@ o = a - d * 10 # o = a % 10
 print(d)
 print(o)'''
 
+
 # 123  312
 a = int(input("A: "))
 o = a % 10
 a = o * 100 + a // 10
 print(a)
+
+
