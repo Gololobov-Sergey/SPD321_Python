@@ -70,14 +70,15 @@ res = a % 2 == b % 2
 print(res)'''
 
 
+'''
 a = int(input("Number A: "))
 if a > 0:
     print("Positive")
+elif a < 0:
+    print("Negstive")
 else:
-    if a < 0:
-        print("Negstive")
-    else:
-        print("Zero")
+    print("Zero")
+'''
 
 
 '''
