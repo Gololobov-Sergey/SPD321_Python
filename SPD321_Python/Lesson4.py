@@ -131,3 +131,16 @@ for h in range(24):
                 print(f"{h1}{h2}:{m1}{m2}:{s1}{s2}")
 print(c)
 '''
+
+'''
+n = int(input("Розрядність чисел : "))
+for i in range(10**(n-1), 10**n):
+    sum = 0
+    num = i
+    while num > 0:
+        r = num % 10
+        sum += r ** n
+        num //= 10
+    if sum == i:
+        print(i, end=' ')
+'''
