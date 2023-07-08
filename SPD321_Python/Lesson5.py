@@ -1,7 +1,7 @@
 ﻿from codecs import utf_16_be_encode
 from encodings import utf_8
 
-
+'''
 for i in "12345":
     print(i)
 
@@ -13,7 +13,9 @@ a = "123.3"
 print(float(a))
 
 
-st1 = '''
+st1 = 
+'''
+'''
 n = int(input("Розрядність чисел : "))
 for i in range(10**(n-1), 10**n):
     sum = 0
@@ -25,7 +27,7 @@ for i in range(10**(n-1), 10**n):
     if sum == i:
         print(i, end=' ')
 '''
-
+'''
 print(st[2])
 print(st[-4])
 
@@ -99,5 +101,17 @@ pat = re.compile("^\d+$")
 while(True):
     sss = input()
     print(bool(pat.search(sss)))
+'''
 
+
+
+#count = 0
+
+#for i in range(100, 1000):
+
+#   if str(i)[0] == str(i)[1] == str(i)[2]:
+
+#       count += 1
+
+#print(count)
 
